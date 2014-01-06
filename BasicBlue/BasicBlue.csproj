@@ -52,27 +52,29 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SzachyBasicBlue\Bierka.cs" />
+    <Compile Include="SzachyBasicBlue\Enums.cs" />
     <Compile Include="SzachyBasicBlue\Goniec.cs" />
     <Compile Include="SzachyBasicBlue\Gra.cs" />
-    <Compile Include="SzachyBasicBlue\Gracz-Człowiek.cs" />
-    <Compile Include="SzachyBasicBlue\Gracz-Komputer.cs" />
+    <Compile Include="SzachyBasicBlue\Gracz_Czlowiek.cs" />
+    <Compile Include="SzachyBasicBlue\Gracz_Komputer.cs" />
     <Compile Include="SzachyBasicBlue\Gracz.cs" />
     <Compile Include="SzachyBasicBlue\Hetman.cs" />
-    <Compile Include="SzachyBasicBlue\Historia_Ruchów.cs" />
-    <Compile Include="SzachyBasicBlue\KierunekRuchu.cs" />
-    <Compile Include="SzachyBasicBlue\Kolor_Gracza.cs" />
-    <Compile Include="SzachyBasicBlue\Kolor_pionków.cs" />
-    <Compile Include="SzachyBasicBlue\Król.cs" />
+    <Compile Include="SzachyBasicBlue\Historia_Ruchow.cs" />
+    <Compile Include="SzachyBasicBlue\Krol.cs" />
     <Compile Include="SzachyBasicBlue\OdczytGry.cs" />
     <Compile Include="SzachyBasicBlue\Pionek.cs" />
     <Compile Include="SzachyBasicBlue\Pionki_Gracza.cs" />
-    <Compile Include="SzachyBasicBlue\Prestiż.cs" />
+    <Compile Include="SzachyBasicBlue\Prestiz.cs" />
+    <Compile Include="SzachyBasicBlue\Program.cs" />
     <Compile Include="SzachyBasicBlue\Silnik_Gracza.cs" />
     <Compile Include="SzachyBasicBlue\Skoczek.cs" />
     <Compile Include="SzachyBasicBlue\Szachownica.cs" />
-    <Compile Include="SzachyBasicBlue\Wieża.cs" />
-    <Compile Include="SzachyBasicBlue\WynikGry.cs" />
+    <Compile Include="SzachyBasicBlue\Tools.cs" />
+    <Compile Include="SzachyBasicBlue\Wieza.cs" />
     <Compile Include="SzachyBasicBlue\ZapisGry.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -81,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -94,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

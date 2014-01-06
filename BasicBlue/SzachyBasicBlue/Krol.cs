@@ -1,6 +1,6 @@
 using System;
 namespace SzachyBasicBlue {
-	public class Król : Bierka  {
+	public class Krol : Bierka  {
 	}
 
 }

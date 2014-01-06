@@ -1,6 +1,7 @@
 using System;
+using BasicBlue.SzachyBasicBlue;
 namespace SzachyBasicBlue {
-	public class Gra : WynikGry  {
+	public class Gra  {
 		public string Wyniki;
 		public string Status;
 		public int Wykonane_Ruchy;
@@ -30,7 +31,7 @@ namespace SzachyBasicBlue {
 			throw new System.Exception("Not implemented");
 		}
 
-		private Historia_Ruchów historia Ruchów;
+        private Historia_Ruchow historia;
 		private ZapisGry zapisGry;
 		private OdczytGry odczytGry;
 		private Gracz gracz;

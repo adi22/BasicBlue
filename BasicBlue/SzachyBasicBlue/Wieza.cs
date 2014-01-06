@@ -1,9 +1,6 @@
 using System;
 namespace SzachyBasicBlue {
-	public enum KierunekRuchu {
-		Góra,
-		Dó³,
-
+	public class Wieza : Bierka  {
 	}
 
 }

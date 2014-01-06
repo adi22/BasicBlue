@@ -3,7 +3,7 @@ namespace SzachyBasicBlue {
 	/// <summary>
 	/// Nadanie presti¿u wszystkim figurom
 	/// </summary>
-	public class Presti¿ {
+	public class Prestiz {
 		private String król;
 		private String hetman;
 		private String wie¿a;

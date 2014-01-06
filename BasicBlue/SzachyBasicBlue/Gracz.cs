@@ -1,7 +1,8 @@
 using System;
+using BasicBlue.SzachyBasicBlue;
 namespace SzachyBasicBlue {
 	public class Gracz : Silnik_Gracza  {
-		public Kolor_Gracza KolorGracza;
+		public Enums.Kolor_Gracza kolor;
 		private String silnikGracza;
 		public String zrobRuch;
 
